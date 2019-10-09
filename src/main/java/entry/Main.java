@@ -39,6 +39,11 @@ import static com.inra.coby.prefixtractor.Writer.checkFile;
             System.exit(0);
         }
         
+	System.out.println( " ================================================== ") ;
+        System.out.println( " Ontology Path          : "     +      ontology      ) ;
+        System.out.println( " Output Prefix Location : "     +      outPrefixFile ) ;
+        System.out.println( " ================================================== ") ;
+	    
         checkFile(outPrefixFile) ;
         
         List<String> prefixesLines = new ArrayList<>() ;
