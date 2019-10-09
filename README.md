@@ -14,8 +14,8 @@ Example :
 
 ```bash
 
-     java -DOntology="/path/to/ontology"     \
-          -DOutPrefixFile=/output/prefixFile \
+     java -DOntology="/path/to/ontology"       \
+          -DOutPrefixFile="/output/prefixFile" \
           -jar blzprefix-extractor-1.0-jar-with-dependencies.jar
 
 ```
